@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import csv
 html_doc = """
 <html>
 <body>
@@ -79,3 +80,10 @@ for i in range(len(th)):
 print(headers)
 print("=====================")
 print(typesMap)
+
+with open('./outputCSVs/type.csv', 'w', newline='') as csvfile:
+    typesWriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    typesWriter.writerow(headers)
+    for row in typesMap:
+        typesWriter.writerow(row)
+    

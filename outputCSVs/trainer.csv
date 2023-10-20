@@ -1,0 +1,314 @@
+name,gym_name,gym_type,region
+Brock,Pewter Gym,Rock,Kanto
+Misty,Cerulean Gym,Water,Kanto
+Surge,,,Kanto
+Erika,Celadon Gym,Grass,Kanto
+Janine,,,Kanto
+Sabrina,Saffron Gym,Psychic,Kanto
+Blaine,Cinnabar Gym,Fire,Kanto
+Giovanni,Viridian Gym,Ground,Kanto
+Koga,Fuchsia Gym,Poison,Kanto
+Lorelei,,,Kanto
+Bruno,,,Kanto
+Agatha,,,Kanto
+Lance,,,Kanto
+Red,,,Kanto
+Blue,,,Kanto
+Green,,,Kanto
+Elaine,,,Kanto
+Chase,,,Kanto
+Trace,,,Kanto
+Morimoto,,,Kanto
+Ash,,,Kanto
+Goh,,,Kanto
+Jessie,,,Kanto
+James,,,Kanto
+Oak,,,Kanto
+Falkner,Violet Gym,Flying,Johto
+Bugsy,Azalea Gym,Bug,Johto
+Whitney,Goldenrod Gym,Normal,Johto
+Morty,Ecruteak Gym,Ghost,Johto
+Chuck,Cianwood Gym,Fighting,Johto
+Jasmine,Olivine Gym,Steel,Johto
+Pryce,Mahogany Gym,Ice,Johto
+Clair,Blackthorn Gym,Dragon,Johto
+Will,,,Johto
+Karen,,,Johto
+Eusine,,,Johto
+Proton,,,Johto
+Petrel,,,Johto
+Ariana,,,Johto
+Archer,,,Johto
+Gold,,,Johto
+Silver,,,Johto
+Crystal,,,Johto
+Elm,,,Johto
+Roxanne,Rustboro Gym,Rock,Hoenn
+Brawly,Dewford Gym,Fighting,Hoenn
+Wattson,Mauville Gym,Electric,Hoenn
+Flannery,Lavaridge Gym,Fire,Hoenn
+Norman,Petalburg Gym,Normal,Hoenn
+Winona,Fortree Gym,Flying,Hoenn
+Tate,,,Hoenn
+Liza,,,Hoenn
+Juan,,,Hoenn
+Sidney,,,Hoenn
+Phoebe,,,Hoenn
+Glacia,,,Hoenn
+Drake,,,Hoenn
+Steven,,,Hoenn
+Wallace,,,Hoenn
+Shelly,,,Hoenn
+Matt,,,Hoenn
+Archie,,,Hoenn
+Courtney,,,Hoenn
+Tabitha,,,Hoenn
+Maxie,,,Hoenn
+Lisia,,,Hoenn
+Aarune,,,Hoenn
+Noland,,,Hoenn
+Greta,,,Hoenn
+Tucker,,,Hoenn
+Lucy,,,Hoenn
+Spenser,,,Hoenn
+Brandon,,,Hoenn
+Anabel,,,Hoenn
+Zinnia,,,Hoenn
+Wally,,,Hoenn
+Brendan,,,Hoenn
+May,,,Hoenn
+Birch,,,Hoenn
+Zook,,,Orre
+Cail,,,Orre
+Biden,,,Orre
+Agrev,,,Orre
+Gonzap,,,Orre
+Resix,,,Orre
+Blusix,,,Orre
+Browsix,,,Orre
+Yellosix,,,Orre
+Purpsix,,,Orre
+Greesix,,,Orre
+Mirakle B.,,,Orre
+Skrub,,,Orre
+Verde,,,Orre
+Rosso,,,Orre
+Bluno,,,Orre
+Exol,,,Orre
+Dakim,,,Orre
+Venus,,,Orre
+Ein,,,Orre
+Gorigan,,,Orre
+Snattle,,,Orre
+Lovrina,,,Orre
+Ardos,,,Orre
+Eldes,,,Orre
+Nascour,,,Orre
+Evice,,,Orre
+Greevil,,,Orre
+Miror B.,,,Orre
+Agnol,,,Orre
+Chobin,,,Orre
+Rui,,,Orre
+Wes,,,Orre
+Michael,,,Orre
+Roark,Oreburgh Gym,Rock,Sinnoh
+Gardenia,Eterna Gym,Grass,Sinnoh
+Maylene,Veilstone Gym,Fighting,Sinnoh
+Crasher Wake,Pastoria Gym,Water,Sinnoh
+Fantina,Hearthome Gym,Ghost,Sinnoh
+Byron,Canalave Gym,Steel,Sinnoh
+Candice,Snowpoint Gym,Ice,Sinnoh
+Volkner,Sunyshore Gym,Electric,Sinnoh
+Aaron,,,Sinnoh
+Bertha,,,Sinnoh
+Flint,,,Sinnoh
+Lucian,,,Sinnoh
+Cynthia,,,Sinnoh
+Tobias,,,Sinnoh
+Mars,,,Sinnoh
+Jupiter,,,Sinnoh
+Saturn,,,Sinnoh
+Charon,,,Sinnoh
+Cyrus,,,Sinnoh
+Palmer,,,Sinnoh
+Thorton,,,Sinnoh
+Dahlia,,,Sinnoh
+Darach,,,Sinnoh
+Argenta,,,Sinnoh
+Cheryl,,,Sinnoh
+Riley,,,Sinnoh
+Buck,,,Sinnoh
+Mira,,,Sinnoh
+Marley,,,Sinnoh
+Dawn,,,Sinnoh
+Lucas,,,Sinnoh
+Barry,,,Sinnoh
+Rowan,,,Sinnoh
+Cilan,Striaton Gym,Grass,Unova
+Chili,Striaton Gym,Fire,Unova
+Cress,Striaton Gym,Water,Unova
+Cheren,Aspertia Gym,Normal,Unova
+Lenora,Nacrene Gym,Normal,Unova
+Roxie,Virbank Gym,Poison,Unova
+Burgh,Castelia Gym,Bug,Unova
+Elesa,Nimbasa Gym,Electric,Unova
+Clay,Driftveil Gym,Ground,Unova
+Skyla,Mistralton Gym,Flying,Unova
+Brycen,Icirrus Gym,Ice,Unova
+Drayden,Opelucid Gym,Dragon,Unova
+Marlon,Humilau Gym,Water,Unova
+Shauntal,,,Unova
+Marshal,,,Unova
+Grimsley,,,Unova
+Caitlin,,,Unova
+Iris,,,Unova
+Alder,,,Unova
+Benga,,,Unova
+Ingo,,,Unova
+Emmet,,,Unova
+Colress,,,Unova
+Zinzolin,,,Unova
+Ghetsis,,,Unova
+Bianca,,,Unova
+Hilda,,,Unova
+Hilbert,,,Unova
+Rosa,,,Unova
+Nate,,,Unova
+Hugh,,,Unova
+N,,,Unova
+Curtis,,,Unova
+Yancy,,,Unova
+Juniper,,,Unova
+Viola,Santalune Gym,Bug,Kalos
+Grant,Cyllage Gym,Rock,Kalos
+Korrina,Shalour Gym,Fighting,Kalos
+Ramos,Coumarine Gym,Grass,Kalos
+Clemont,Lumiose Gym,Electric,Kalos
+Valerie,Laverre Gym,Fairy,Kalos
+Olympia,Anistar Gym,Psychic,Kalos
+Wulfric,Snowbelle Gym,Ice,Kalos
+Wikstrom,,,Kalos
+Malva,,,Kalos
+Siebold,,,Kalos
+Drasna,,,Kalos
+Diantha,,,Kalos
+Aliana,,,Kalos
+Bryony,,,Kalos
+Celosia,,,Kalos
+Mable,,,Kalos
+Xerosic,,,Kalos
+Lysandre,,,Kalos
+Nita,,,Kalos
+Evelyn,,,Kalos
+Dana,,,Kalos
+Morgan,,,Kalos
+Alain,,,Kalos
+Essentia,,,Kalos
+Trevor,,,Kalos
+Tierno,,,Kalos
+Calem,,,Kalos
+Serena,,,Kalos
+Shauna,,,Kalos
+AZ,,,Kalos
+Dexio,,,Kalos
+Sina,,,Kalos
+Sycamore,,,Kalos
+Blanche,,,?????
+Spark,,,?????
+Candela,,,?????
+Cliff,,,?????
+Sierra,,,?????
+Arlo,,,?????
+Ilima,,,Alola
+Lana,,,Alola
+Kiawe,,,Alola
+Mallow,,,Alola
+Sophocles,,,Alola
+Acerola,,,Alola
+Mina,,,Alola
+Molayne,,,Alola
+Hala,,,Alola
+Olivia,,,Alola
+Nanu,,,Alola
+Hapu,,,Alola
+Kahili,,,Alola
+Ryuki,,,Alola
+Plumeria,,,Alola
+Guzma,,,Alola
+Dulse,,,"""Alola"""
+Zossie,,,"""Alola"""
+Soliera,,,"""Alola"""
+Phyco,,,"""Alola"""
+Faba,,,Alola
+Lusamine,,,Alola
+Gladion,,,Alola
+Lillie,,,Alola
+Elio,,,Alola
+Selene,,,Alola
+Hau,,,Alola
+Kukui,,,Alola
+Milo,Turffield Stadium,Grass,Galar
+Nessa,Hulbury Stadium,Water,Galar
+Kabu,Motostoke Stadium,Fire,Galar
+Allister,Stow-on-Side Stadium,Ghost,Galar
+Bea,Stow-on-Side Stadium,Fighting,Galar
+Opal,Ballonlea Stadium,Fairy,Galar
+Bede,,,Galar
+Melony,Circhester Stadium,Ice,Galar
+Gordie,Circhester Stadium,Rock,Galar
+Piers,Spikemuth Gym,Dark,Galar
+Marnie,,,Galar
+Raihan,Hammerlocke Stadium,Dragon,Galar
+Oleana,,,Galar
+Rose,,,Galar
+Leon,,,Galar
+Sordward,,,Galar
+Shielbert,,,Galar
+Avery,,,Galar
+Klara,,,Galar
+Mustard,,,Galar
+Honey,,,Galar
+Peony,,,Galar
+Peonia,,,Galar
+Victor,,,Galar
+Gloria,,,Galar
+Hop,,,Galar
+Koko,,,Galar
+Magnolia,,,Galar
+Sonia,,,Galar
+Katy,Cortondo Gym,Bug,Paldea
+Brassius,Artazon Gym,Grass,Paldea
+Iono,Levincia Gym,Electric,Paldea
+Kofu,Cascarrafa Gym,Water,Paldea
+Ryme,Montenevera Gym,Ghost,Paldea
+Tulip,Alfornada Gym,Psychic,Paldea
+Grusha,Glaseado Gym,Ice,Paldea
+Larry,Medali Gym,Normal,Paldea
+Poppy,,,Paldea
+Rika,,,Paldea
+Hassel,,,Paldea
+Geeta,,,Paldea
+Giacomo,,,Paldea
+Mela,,,Paldea
+Atticus,,,Paldea
+Ortega,,,Paldea
+Eri,,,Paldea
+Penny,,,Paldea
+Saguaro,,,Paldea
+Dendra,,,Paldea
+Salvatore,,,Paldea
+Tyme,,,Paldea
+Jacq,,,Paldea
+Raifort,,,Paldea
+Miriam,,,Paldea
+Kieran,,,Paldea
+Carmine,,,Paldea
+Perrin,,,Paldea
+Clavell,,,Paldea
+Arven,,,Paldea
+Nemona,,,Paldea
+Florian,,,Paldea
+Juliana,,,Paldea
+Sada,,,Paldea
+Turo,,,Paldea

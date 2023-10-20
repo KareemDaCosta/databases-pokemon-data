@@ -902,7 +902,7 @@ gymData = []
 trainerHeaders = ["name", "gym_name", "gym_type", "region"]
 trainerData = []
 
-pokemonHeaders = ["pokedex_number", "name", "attack", "defense", "sp_attack", "sp_defense", "speed", "type1", "type2", "weight", "generation", "is_legendary"]
+pokemonHeaders = ["pokedex_number", "name", "attack", "defense", "hp", "sp_attack", "sp_defense", "speed", "weight", "generation", "is_legendary"]
 pokemonData = []
 
 pokemonTypeHeaders = ["pokedex_number", "type_name"]
@@ -974,3 +974,32 @@ print("================")
 print(trainerOwnsData[0:12])
 print("================")
 
+with open('./outputCSVs/gym.csv', 'w', newline='') as csvfile:
+    typesWriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    typesWriter.writerow(gymHeaders)
+    for row in gymData:
+        typesWriter.writerow(row)
+        
+with open('./outputCSVs/trainer.csv', 'w', newline='') as csvfile:
+    typesWriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    typesWriter.writerow(trainerHeaders)
+    for row in trainerData:
+        typesWriter.writerow(row)
+
+with open('./outputCSVs/pokemon.csv', 'w', newline='') as csvfile:
+    typesWriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    typesWriter.writerow(pokemonHeaders)
+    for row in pokemonData:
+        typesWriter.writerow(row)
+
+with open('./outputCSVs/pokemon_type.csv', 'w', newline='') as csvfile:
+    typesWriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    typesWriter.writerow(pokemonTypeHeaders)
+    for row in pokemonTypeData:
+        typesWriter.writerow(row)
+        
+with open('./outputCSVs/trainer_owns.csv', 'w', newline='') as csvfile:
+    typesWriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    typesWriter.writerow(trainerOwnsHeaders)
+    for row in trainerOwnsData:
+        typesWriter.writerow(row)
