@@ -939,15 +939,16 @@ for i in range(len(regions)):
         gymData.append(currentRow)
 print(gymData[0:6])
 print("================")
-
+pokemonTypes = set()
 with open("pokemon_downloaded.csv", newline='') as csvfile:
     pokemonReader = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in pokemonReader:
         pokemonData.append([int(row[4]), row[3], int(row[0]), int(row[1]), int(row[2]), int(row[5]), int(row[6]), int(row[7]), float(row[10]) if len(row[10])>0 else '', int(row[11]), int(row[12])])
         pokemonMap[row[3]] = int(row[4])
         for i in range(8, 10):
-            if len(row[i]) > 0:
+            if len(row[i]) > 0 and (int(row[4]), row[i]) not in pokemonTypes:
                 pokemonTypeData.append([int(row[4]), row[i]])
+                pokemonTypes.add((int(row[4]), row[i]))
 print(pokemonData[0:6])
 print("================")
 print(pokemonTypeData[0:12])

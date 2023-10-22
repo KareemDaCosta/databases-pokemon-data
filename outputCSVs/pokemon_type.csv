@@ -40,7 +40,6 @@ pokedex_number,type_name
 24,poison
 25,electric
 26,electric
-26,electric
 27,ground
 27,ice
 28,ground
@@ -82,8 +81,6 @@ pokedex_number,type_name
 49,bug
 49,poison
 50,ground
-50,ground
-51,ground
 51,ground
 52,normal
 52,dark
@@ -141,8 +138,6 @@ pokedex_number,type_name
 87,water
 87,ice
 88,poison
-88,poison
-89,poison
 89,poison
 90,water
 91,water
@@ -740,7 +735,6 @@ pokedex_number,type_name
 490,water
 491,dark
 492,grass
-492,grass
 493,normal
 494,psychic
 494,fire
@@ -825,7 +819,6 @@ pokedex_number,type_name
 553,ground
 553,dark
 554,fire
-555,fire
 555,fire
 556,grass
 557,bug
