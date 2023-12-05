@@ -943,8 +943,9 @@ pokemonTypes = set()
 with open("pokemon_downloaded.csv", newline='') as csvfile:
     pokemonReader = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in pokemonReader:
-        abilties = row[13][2:-2].split("', '")
-        pokemonData.append([int(row[4]), row[3], int(row[0]), int(row[1]), int(row[2]), int(row[5]), int(row[6]), int(row[7]), float(row[10]) if len(row[10])>0 else '', int(row[11]), int(row[12]), abilties])
+        abilities_array = row[13][2:-2].split("', '")
+        abilities = '{' + ", ".join(str(x) for x in abilities_array) + '}'
+        pokemonData.append([int(row[4]), row[3], int(row[0]), int(row[1]), int(row[2]), int(row[5]), int(row[6]), int(row[7]), float(row[10]) if len(row[10])>0 else '', int(row[11]), int(row[12]), abilities])
         pokemonMap[row[3]] = int(row[4])
         for i in range(8, 10):
             if len(row[i]) > 0 and (int(row[4]), row[i]) not in pokemonTypes:
