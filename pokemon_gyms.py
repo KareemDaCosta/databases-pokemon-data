@@ -902,7 +902,7 @@ gymData = []
 trainerHeaders = ["name", "gym_name", "gym_type", "region"]
 trainerData = []
 
-pokemonHeaders = ["pokedex_number", "name", "attack", "defense", "hp", "sp_attack", "sp_defense", "speed", "weight", "generation", "is_legendary"]
+pokemonHeaders = ["pokedex_number", "name", "attack", "defense", "hp", "sp_attack", "sp_defense", "speed", "weight", "generation", "is_legendary", "abilities"]
 pokemonData = []
 
 pokemonTypeHeaders = ["pokedex_number", "type_name"]
@@ -943,7 +943,8 @@ pokemonTypes = set()
 with open("pokemon_downloaded.csv", newline='') as csvfile:
     pokemonReader = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in pokemonReader:
-        pokemonData.append([int(row[4]), row[3], int(row[0]), int(row[1]), int(row[2]), int(row[5]), int(row[6]), int(row[7]), float(row[10]) if len(row[10])>0 else '', int(row[11]), int(row[12])])
+        abilties = row[13][2:-2].split("', '")
+        pokemonData.append([int(row[4]), row[3], int(row[0]), int(row[1]), int(row[2]), int(row[5]), int(row[6]), int(row[7]), float(row[10]) if len(row[10])>0 else '', int(row[11]), int(row[12]), abilties])
         pokemonMap[row[3]] = int(row[4])
         for i in range(8, 10):
             if len(row[i]) > 0 and (int(row[4]), row[i]) not in pokemonTypes:
